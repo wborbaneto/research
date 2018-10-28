@@ -1,0 +1,12 @@
+AT+SAPBR=3,1,"Contype","GPRS"
+
+AT+SAPBR =1,1
+
+AT+SAPBR=2,1
+
+AT+FTPSERV=	*****
+AT+FTPUN=	***** 
+AT+FTPPW=	*****
+AT+FTPPUTNAME=CodigoDispositivo_dia_hora-minuto_PID.txt 
+AT+FTPPUTPATH=/ 
+AT+FTPPUT=1
