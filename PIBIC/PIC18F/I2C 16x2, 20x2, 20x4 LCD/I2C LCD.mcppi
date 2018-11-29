@@ -1,0 +1,65 @@
+[DEVICE]
+Name=P18F4550
+Clock=80000000
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=I2C LCD.c
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+Count=1
+File0=I2C LCD.c
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+Count=2
+File0=I2C LCD.c
+File1=lcd_i2c.h
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=3
+Path0=F:\Program Files\Mikroelektronika\mikroC PRO for PIC\Defs\
+Path1=F:\Program Files\Mikroelektronika\mikroC PRO for PIC\uses\P18\
+Path2=F:\Dropbox\UFPI - Aulas\UFPI\PIBIC\I2C 16x2, 20x2, 20x4 LCD\
+[HEADER_PATH]
+Count=1
+Path0=F:\Dropbox\UFPI - Aulas\UFPI\PIBIC\I2C 16x2, 20x2, 20x4 LCD\
+[HEADERS]
+Count=1
+File0=lcd_i2c.h
+[PLDS]
+Count=0
+[Useses]
+Count=11
+File0=I2C
+File1=Software_I2C
+File2=Mmc
+File3=SPI
+File4=Mmc_Fat16_Config
+File5=Mmc_FAT16
+File6=C_String
+File7=C_Type
+File8=Conversions
+File9=Software_UART
+File10=UART
+[EXPANDED_NODES]
+Node0=Sources
+Node1=Header Files
+Count=2

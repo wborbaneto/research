@@ -1,0 +1,31 @@
+AT
+AT+CFUN=1
+AT+CPIN
+AT+CSTT="timbrasil.br","tim","tim"
+AT+CIIR
+AT+CIFSR
+AT+CREG?
+AT+SAPBR=3,1,"Contype","GPRS"
+AT+SAPBR=3,1,"APN","timbrasil.br"
+AT+SAPBR= 1,1
+
+AT+HTTPINIT
+AT+HTTPPARA="CID",1
+AT+HTTPPARA="URL","http://raspy-com.stackstaging.com/php/sim800.php"
+AT+HTTPPARA="CONTENT","application/json"
+AT+HTTPDATA=40,10000
+{"location_id": "238", "fill_percent": "90"}
+AT+HTTPACTION=1
+AT+HTTPREAD
+AT+HTTPTERM
+
+AT
+AT+CFUN=1
+AT+CPIN
+AT+CSTT="timbrasil.br","tim","tim"
+AT+CIICR
+AT+CIFSR
+AT+CREG?
+AT+SAPBR=3,1,"Contype","GPRS"
+AT+SAPBR=3,1,"APN","timbrasil.br"
+AT+SAPBR= 1,1

@@ -1,0 +1,7 @@
+AT
+AT+HTTPINIT;
+AT+HTTPINIT;+HTTPPARA="CID",1;+HTTPPARA="URL","http://raspy-com.stackstaging.com/php/sim800.php";+HTTPPARA="CONTENT","text/html";+HTTPDATA=40,10000
+{"vel": 238, "rot": 90,"acel":234}
+AT+HTTPACTION=1
+AT+HTTPREAD
+AT+HTTPTERM

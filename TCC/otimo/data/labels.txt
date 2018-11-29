@@ -1,0 +1,1 @@
+{'Consumo' 'RPM' 'MAF' 'Velocidade' '%Acelerador' 'Carga no Motor'};
